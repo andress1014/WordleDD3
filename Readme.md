@@ -1,5 +1,6 @@
 ﻿# WORDLE
  ## INSTALACION Y EJECUCIÓN DEL PROYECTO
+ ``.env copy`` pasar este archivo a ``.env`` y configurar las variables de entorno
  `` npm install``
 `` npm run dev``
  ## CREAR BD CON LA FUNCIÓN DE POSTGRES
