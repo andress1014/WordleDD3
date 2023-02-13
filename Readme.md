@@ -12,5 +12,7 @@
 * Adjunto archivo postman ``Wordle.postman_collection.json`` para probar las apis
 ## TEST UNITARIOS
 * Para ejecutar los test unitarios ejecutar el comando ``npm run test``
+## VIDEO DEMOSTRATIVO DE FUNCIONALIDAD
+https://www.youtube.com/watch?v=TmcP8_F6IG8
 
  
