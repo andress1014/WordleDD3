@@ -1,8 +1,8 @@
 ﻿# WORDLE
  ## INSTALACION Y EJECUCIÓN DEL PROYECTO
- ``.env copy`` pasar este archivo a ``.env`` y configurar las variables de entorno
- `` npm install``
-`` npm run dev``
+ * ``.env copy`` pasar este archivo a ``.env`` y configurar las variables de entorno
+ * Ejecutar `` npm install``
+ * Ejecutar `` npm run dev``
  ## CREAR BD CON LA FUNCIÓN DE POSTGRES
  * Ir a el archivo  `` /config/postgres/postgres-sequelize`` y descomentar la linea 28 (``//await connection.sync();``)
  * luego de eso ejecutar el programa `` npm run dev`` y se creara la base de datos
