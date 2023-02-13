@@ -23,9 +23,9 @@ export const connection = new Sequelize(POSTGRES_DB, POSTGRES_USER, POSTGRES_PAS
  * Configuración de conección a Postgres
  */
 export const DBPostgres = async () => {
-  //await connection.sync();
+  await connection.sync();
   try {
-    await connection.authenticate();
+    //await connection.authenticate();
     log.info('[DatabasePostgres]: Connection has been established successfully.');
   } catch (error) {
     let message = '[DatabasePostgres]:Unable to connect to the database:';
